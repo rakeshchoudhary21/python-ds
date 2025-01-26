@@ -18,5 +18,7 @@ def palindrome_partitions(s,i,j) -> int :
         ans = min(ans,temp)
     return ans
 
-str = "mamdam"
-print(palindrome_partitions(str,0, len(str)))
+if __name__=='__main__':
+
+    str = "mamdam"
+    print(palindrome_partitions(str,0, len(str)))
